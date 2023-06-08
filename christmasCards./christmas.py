@@ -1,6 +1,6 @@
 import os
 
-def read_template(filename):
+def read_templates(filename):
     with open(filename, 'r') as file:
         return file.read()
 
